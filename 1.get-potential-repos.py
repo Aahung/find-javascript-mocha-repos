@@ -5,7 +5,7 @@ import requests
 from time import sleep
 import math
 
-query_url = 'https://api.github.com/search/repositories?q=language:TypeScript%s&sort=stars&order=desc&per_page=%d&page=%d'
+query_url = 'https://api.github.com/search/repositories?q=language:JavaScript%s&sort=stars&order=desc&per_page=%d&page=%d'
 star_filter = '+stars:>0'
 
 pages = 1
